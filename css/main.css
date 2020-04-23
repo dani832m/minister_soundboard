@@ -3,6 +3,7 @@
    padding: 0;
    box-sizing: border-box;
    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+   letter-spacing: 0.1rem;
 }
 
 html,
@@ -21,10 +22,10 @@ header {
 }
 
 h1,
-h2 {
+h2,
+#mobile-view {
    font-weight: normal;
-   letter-spacing: 0.1rem;
-   text-shadow: 0 0 5px rgb(235, 235, 235);
+   text-shadow: 0 0 0.7rem rgb(235, 235, 235);
    color: rgb(104, 9, 9);
 }
 
@@ -51,16 +52,59 @@ h2 {
 }
 
 #keys {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-flow: row wrap;
 }
 
 .key {
-}
-
-.playing {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-flow: column wrap;
+   min-height: 10rem;
+   border-radius: 0.4rem;
+   margin: 1rem;
+   padding: 1rem 0.5rem;
+   transition: all 0.1s ease;
+   width: 12rem;
+   text-align: center;
+   color: white;
+   background: rgba(63, 63, 63, 0.2);
+   box-shadow: 0.2rem 0.2rem 0.1rem rgba(73, 73, 73, 0.8);
 }
 
 kbd {
+   font-size: 4rem;
+   text-shadow: 0 0 0.5rem rgb(20, 20, 20);
+   margin-bottom: 0.3rem;
 }
 
-.sound {
+.audio {
+   font-size: 1.3rem;
+   color: rgb(104, 9, 9);
+   text-shadow: 0 0 0.3rem rgb(212, 212, 212);
+}
+
+.playing {
+   transform: scale(1.1);
+   background: rgba(196, 196, 196, 0.8);
+   box-shadow: 0 0 1rem rgb(104, 9, 9);
+}
+
+#mobile-view {
+   display: none;
+   font-size: 1.8rem;
+   text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+   #keys,
+   #audio-tags {
+      display: none;
+   }
+   #mobile-view {
+      display: block;
+   }
 }
