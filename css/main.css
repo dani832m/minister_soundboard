@@ -1,15 +1,19 @@
+:root {
+   --text-color: rgb(104, 9, 9);
+}
+
 * {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-   letter-spacing: 0.1rem;
 }
 
 html,
 body {
    font-size: 62.5%;
    overflow: hidden;
+   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+   letter-spacing: 0.1rem;
    user-select: none; /* Chrome and Opera */
    -webkit-user-select: none; /* Safari */
    -moz-user-select: none; /* Firefox */
@@ -25,8 +29,8 @@ h1,
 h2,
 #mobile-view {
    font-weight: normal;
-   text-shadow: 0 0 0.7rem rgb(235, 235, 235);
-   color: rgb(104, 9, 9);
+   text-shadow: 0 0 0.6rem rgb(235, 235, 235);
+   color: var(--text-color);
 }
 
 h1 {
@@ -44,12 +48,12 @@ h2 {
    display: flex;
    justify-content: center;
    align-items: center;
-   flex-flow: column wrap;
+   flex-flow: column nowrap;
    background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 1)),
       url("../img/mette-bg.jpg") center center no-repeat;
    background-size: cover;
    cursor: default;
-   border: 1.5rem solid rgb(104, 9, 9);
+   border: 1rem solid var(--text-color);
 }
 
 #keys {
@@ -57,7 +61,7 @@ h2 {
    justify-content: center;
    align-items: center;
    flex-flow: row wrap;
-   margin-bottom: 5rem;
+   margin-bottom: 3rem;
 }
 
 .key {
@@ -88,14 +92,14 @@ kbd {
 
 .audio {
    font-size: 1.3rem;
-   color: rgb(104, 9, 9);
+   color: var(--text-color);
    text-shadow: 0 0 0.3rem rgb(212, 212, 212);
 }
 
 .playing {
    transform: scale(1.1);
    background: rgba(196, 196, 196, 0.8);
-   box-shadow: 0 0 1rem rgb(104, 9, 9);
+   box-shadow: 0 0 1rem var(--text-color);
 }
 
 #mobile-view {
@@ -104,7 +108,7 @@ kbd {
    text-align: center;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 860px) {
    #keys,
    #audio-tags {
       display: none;
