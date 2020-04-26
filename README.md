@@ -12,7 +12,7 @@ Brug tasterne på dit tastatur til at udforme de sætninger, du vil helst vil h�
 
 ## Hvor?
 
-På [n4.dk/soundboard](http://n4.dk/soundboard) kan du prøve soundboardet. Alternativt kan du downloade filerne og køre dem lokalt i din browser.
+På [n4.dk/soundboard](http://n4.dk/soundboard) kan du prøve soundboardet. Alternativt kan du klone/downloade filerne og køre dem lokalt i din browser.
 
 ## Screenshots
 
