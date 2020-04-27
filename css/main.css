@@ -160,4 +160,12 @@ kbd {
       max-width: 32rem;
       margin: 0 auto 2.5rem;
    }
+
+   .key {
+      min-height: 5.5rem;
+   }
+
+   kbd {
+      display: none;
+   }
 }
