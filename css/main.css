@@ -26,8 +26,7 @@ header {
 }
 
 h1,
-h2,
-#mobile-view {
+h2 {
    font-weight: normal;
    text-shadow: 0 0 0.6rem rgb(235, 235, 235);
    color: var(--text-color);
@@ -102,18 +101,63 @@ kbd {
    box-shadow: 0 0 1rem var(--text-color);
 }
 
-#mobile-view {
-   display: none;
-   font-size: 1.8rem;
-   text-align: center;
+@media screen and (max-width: 1000px) {
+   header {
+      margin-bottom: 2.5rem;
+   }
+
+   h1 {
+      font-size: 3rem;
+      margin-bottom: 0.6rem;
+   }
+
+   h2 {
+      font-size: 1.6rem;
+   }
+
+   .key {
+      min-height: 6.8rem;
+      margin: 0.6rem;
+      padding: 0.8rem 0.4rem;
+      width: 9rem;
+   }
+
+   kbd {
+      font-size: 3rem;
+      margin-bottom: 0.2rem;
+   }
+
+   .audio {
+      font-size: 0.9rem;
+   }
 }
 
-@media screen and (max-width: 860px) {
-   #keys,
-   #audio-tags {
-      display: none;
+@media screen and (max-width: 430px) {
+   html,
+   body {
+      overflow: auto;
    }
-   #mobile-view {
+
+   header {
+      margin: 2rem 0;
+   }
+
+   h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+   }
+
+   h2 {
+      font-size: 1.3rem;
+   }
+
+   #main {
       display: block;
+      height: 100%;
+   }
+
+   #keys {
+      max-width: 32rem;
+      margin: 0 auto 2.5rem;
    }
 }
