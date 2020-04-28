@@ -8,7 +8,7 @@ Er du heller ikke altid helt tilfreds med de udmeldinger, statsministeren kommer
 
 ## Hvordan?
 
-Brug tasterne på dit tastatur til at udforme de sætninger, du vil helst vil høre.
+Brug tasterne på dit tastatur eller klik på tekstfelterne for at at udforme de sætninger, du vil helst vil høre.
 
 ## Hvor?
 
