@@ -87,12 +87,14 @@ kbd {
    font-size: 4rem;
    text-shadow: 0 0 0.5rem rgb(20, 20, 20);
    margin-bottom: 0.3rem;
+   pointer-events: none;
 }
 
 .audio {
    font-size: 1.3rem;
    color: var(--text-color);
    text-shadow: 0 0 0.3rem rgb(212, 212, 212);
+   pointer-events: none;
 }
 
 .playing {
