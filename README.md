@@ -4,11 +4,11 @@
 
 ## Hvad?
 
-Er du heller ikke altid helt tilfreds med de udmeldinger, statsministeren kommer med på pressemøderne? Så har du nu muligheden for at bestemme, hvad Mette skal sige via dette smarte soundboard.
+Er du heller ikke altid helt tilfreds med de udmeldinger, statsministeren kommer med på pressemøderne? Så har du nu muligheden for at bestemme, hvad Mette skal sige via dette smarte soundboard 😀
 
 ## Hvordan?
 
-Brug tasterne på dit tastatur eller klik på tekstfelterne for at at udforme de sætninger, du vil helst vil høre.
+Brug dit tastatur, hvis du sidder ved en computer, eller klik på tekstfelterne hvis du sidder på smartphone. På denne måde kan du konstruere dine egne sætninger, oplæst med Mette Frederiksens stemme.
 
 ## Hvor?
 
@@ -16,4 +16,4 @@ På [n4.dk/soundboard](http://n4.dk/soundboard) kan du prøve soundboardet. Alte
 
 ## Screenshots
 
-Kommer på et tidspunkt, når soundboardet er færdigt.
+<img src="#" alt="Minister Soundboard - Desktop View" height="500" /> <img src="#" alt="Minister Soundboard - Mobile View" height="500" />
