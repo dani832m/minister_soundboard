@@ -20,4 +20,4 @@ Alle lydklip stammer fra pressemødet d. 6-4-2020, og er naturligvis taget ud af
 
 ## Screenshots
 
-<img src="#" alt="Minister Soundboard - Desktop View" height="500" /> <img src="#" alt="Minister Soundboard - Mobile View" height="500" />
+<img src="https://i.imgur.com/FrsbP0W.png" alt="Minister Soundboard - Mobile View" /> <img src="https://i.imgur.com/jJ851g3.png" alt="Minister Soundboard - Desktop View" />
