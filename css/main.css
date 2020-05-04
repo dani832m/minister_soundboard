@@ -103,7 +103,7 @@ kbd {
    box-shadow: 0 0 1rem var(--text-color);
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
    header {
       margin-bottom: 2.5rem;
    }
