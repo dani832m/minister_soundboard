@@ -21,3 +21,9 @@ Alle lydklip stammer fra pressemødet d. 6-4-2020, og er naturligvis taget ud af
 ## Screenshots
 
 <img src="https://i.imgur.com/FrsbP0W.png" alt="Minister Soundboard - Mobile View" /> <img src="https://i.imgur.com/jJ851g3.png" alt="Minister Soundboard - Desktop View" />
+
+## Changelog
+
+### v1.1
+
+Layoutet crashede i nogle opløsninger, når orientation var landscape. Det er nu løst, så boardet er brugbart ved alle skærmstørrelser.
