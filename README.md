@@ -12,7 +12,7 @@ Brug dit tastatur, hvis du sidder ved en computer, eller klik på tekstfelterne 
 
 ## Hvor?
 
-På [n4.dk/soundboard](http://n4.dk/soundboard) kan du prøve soundboardet. Alternativt kan du klone/downloade filerne og køre dem lokalt i din browser.
+Klon/download filerne og kør spillet lokalt i din browser.
 
 ## Lyde
 
