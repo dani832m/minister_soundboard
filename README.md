@@ -1,6 +1,6 @@
 # Minister Soundboard
 
-<img src="https://img.shields.io/badge/version-1.0-black" alt="Version" /> <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-black" alt="License" /></a>
+<img src="https://img.shields.io/badge/version-1.1-black" alt="Version" /> <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-black" alt="License" /></a>
 
 ## Hvad?
 
